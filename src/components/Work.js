@@ -5,20 +5,24 @@ import { ProjectDiv, ProjectCard, CollabDiv, CollabCard, TestDiv, TestCard } fro
 export default function Work() {
     return (
         <div>
-            <h1>Some of My Work</h1>
-            <h1>Design Projects</h1>
+            <h1>A Few Screen Grabs of Work I've Done</h1>
                 <ProjectDiv>
-                    <ProjectCard>Project 1</ProjectCard>
-                    <ProjectCard>Project 2</ProjectCard>
-                    <ProjectCard>Project 3</ProjectCard>
-                    <ProjectCard>Project 4</ProjectCard>
+                    <ProjectCard src="/darkmode.png" alt="darkmode screenshot"></ProjectCard>
+                    <ProjectCard src="/shoppingcart.png" alt="shopping cart screenshot"></ProjectCard>
+                    <ProjectCard src="/faveband.png" alt="favoriteband screenshot"></ProjectCard>
+                    <ProjectCard src="/foxapi.png" alt="fox API screenshot"></ProjectCard>
+                </ProjectDiv>
+                <ProjectDiv>
+                    <ProjectCard src="/empathy.png" alt="empathy screenshot"></ProjectCard>
+                    <ProjectCard src="/VRFunding.png" alt="VR Funding screenshot"></ProjectCard>
+                    <ProjectCard src="/friendsapp.png" alt="friends app screenshot"></ProjectCard>
+                    <ProjectCard src="/nasa.png" alt="nasa API screenshot"></ProjectCard>
                 </ProjectDiv>
                 <h1>Collaborative Projects</h1>
                 <CollabDiv>
                     <CollabCard>Project 1</CollabCard>
                     <CollabCard>Project 2</CollabCard>
                     <CollabCard>Project 3</CollabCard>
-                    <CollabCard>Project 4</CollabCard>
                 </CollabDiv>
                 <h1>Endorsements / Testimonials</h1>
                 <TestDiv>

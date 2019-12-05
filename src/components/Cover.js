@@ -11,19 +11,13 @@ import Typewriter from "./Typewriter";
     return (
        <div>
            <Code src="/codeimg.png" alt="blurred code" className="codeimg"></Code>
+           <div>
            <Typer>
-            <Typewriter />
-           </Typer>
-           <Button href="/nav/home" type="button">Enter Here</Button>
-      </div>
-    )
-}
-
-           /* 
-           <Typewriter
+                <Typewriter />
+           {/* <Typewriter
                 onInit={(typewriter) => {
 
-                // typewriter.typeString(`Hi. This is my website.`)
+                // typewriter.typeString(`Hi. This is my website.`) 
                 // .callFunction(() => {
                 // })
                 // .deleteChars(23)
@@ -31,21 +25,53 @@ import Typewriter from "./Typewriter";
                 typewriter.typeString(`I'm Jackie Atwood.`)
                 .callFunction(() => {
                 })
-                
-                .pauseFor(4500)
-                typewriter.typeString(`<br> I'm a budding web developer.`)
-                .callFunction(() => {
-                })
-                .pauseFor(4500)
+                .start()
+                // // .pauseFor(4500)
+                // typewriter.typeString(`<br> I'm a budding web developer.`)
+                // .callFunction(() => {
+                // })
+                // .pauseFor(4500)
 
-                typewriter.typeString(`<br> Let's Grow Together....`)
-                .callFunction(() => {
-                })
-                .changeDelay('natural')
-                .start();
+                // typewriter.typeString(`<br> Let's Grow Together....`)
+                // .callFunction(() => {
+                // })
+                // .changeDelay('natural')
+                // .start()
                  }}
-            />
-            
-            </Typer> */
+            /> */}
+            </Typer>
+            </div>
+           <Button href="/nav/home" type="button">Enter Here</Button>
+      </div>
+    )
+}
+
+        //    <Typer>
+        //    <Typewriter
+        //         onInit={(typewriter) => {
+
+        //         // typewriter.typeString(`Hi. This is my website.`)
+        //         // .callFunction(() => {
+        //         // })
+        //         // .deleteChars(23)
+
+        //         typewriter.typeString(`I'm Jackie Atwood.`)
+        //         .callFunction(() => {
+        //         })
+                
+        //         .pauseFor(4500)
+        //         typewriter.typeString(`<br> I'm a budding web developer.`)
+        //         .callFunction(() => {
+        //         })
+        //         .pauseFor(4500)
+
+        //         typewriter.typeString(`<br> Let's Grow Together....`)
+        //         .callFunction(() => {
+        //         })
+        //         .changeDelay('natural')
+        //         .start();
+        //          }}
+        //     />
+        //     </Typer>
       
 
