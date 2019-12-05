@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 const Pitch = styled.div `
-    border: 1px solid gray;
+    // border: 1px solid gray;
     width: 70%;
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
     margin-top: 10px;
     padding-bottom: 5px;
-    box-shadow: 1px 1px 10px 1px #888888;
+    // box-shadow: 1px 1px 10px 1px #888888;
     background: white;
     // box-shadow: 1px 1px 10px 1px #14bdbd;
 `
@@ -19,7 +19,7 @@ const PitchTitle = styled.h1 `
 `
 
 const Circle = styled.p `
-    border: black solid 2px;
+    // border: black solid 2px;
     background: #14bdbd;
     border-radius: 100%;
     width: 95px;
@@ -53,7 +53,7 @@ const SplashCard = styled.p `
     // margin: 5px;
     margin-top: -60px;
     padding-top: 80px;
-    box-shadow: 1px 1px 10px 1px #888888;
+    // box-shadow: 1px 1px 10px 1px #888888;
     background: white;
 `
 

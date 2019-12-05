@@ -4,7 +4,7 @@ const Button = styled.a `
   border: solid white 1px;
   background: white;
   color: black;
-  width: 30%;
+  width: 20%;
   height: 30px;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -16,12 +16,12 @@ const Typer = styled.div`
     text-anchor: start;
     fill: #fffcf9;
     font-family: Helvetica, Arial, sans-serif;
-    border: red solid 1px;
+    // border: red solid 1px;
     margin: 0 auto;
     margin-top: 20%;
-    width: 60%;
+    width: 30%;
     text-align: left;
-    font-size: 30px;
+    font-size: 60px;
 `
 
 const Code = styled.img `
