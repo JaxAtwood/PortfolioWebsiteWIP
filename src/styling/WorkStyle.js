@@ -8,13 +8,14 @@ const ProjectDiv = styled.div `
     width: 90%;
     margin: 0 auto;
     box-shadow: 1px 1px 20px 1px #888888;
+    margin-top: 30px;
 `
 
-const ProjectCard = styled.h2 `
+const ProjectCard = styled.img `
     border: 1px #14bdbd solid;
     background: #14bdbd;
     width: 20%;
-    height: 180px;
+    height: 0 auto;
     box-shadow: 1px 1px 20px 1px #888888;
 
     &:hover {
@@ -27,7 +28,7 @@ const ProjectCard = styled.h2 `
         -moz-transition: all 200ms ease-in;
         -moz-transform: scale(1.1);
         transition: all 200ms ease-in;
-        transform: scale(1.1);
+        transform: scale(2);
     }
 `
 const CollabDiv = styled.div `
