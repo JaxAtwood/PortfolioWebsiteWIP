@@ -2,14 +2,17 @@ import React from "react";
 
 import Lines from "./Line";
 
-const DataList = props => {
+class DataList extends React.Component (props) {
+
+render() {
   return (
     <div>
-      {props.lines.map(item => {
+      {this.props.lines.map(item => {
         return <Lines item={item} key={item.id} />;
       })}
     </div>
-  );
+  )
+  }
 };
 
 export default DataList;

@@ -1,4 +1,4 @@
-export const lines = [
+export default [
   {
     lines: "Line One",
     id: 1,

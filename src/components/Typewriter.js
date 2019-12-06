@@ -2,6 +2,8 @@
 
 import React from "react";
 import { TimelineMax, Linear } from "gsap";
+// import Lines from "./DataList";
+// import data from "./Data";
 
 //{ line: "Hi. I am Jackie."}, 
 //{ line: "This is the second line"}, 
@@ -15,7 +17,8 @@ class TypeWriter extends React.Component {
           _count: 0, 
           currentString: "obj", 
           charCount:0, 
-          messageBodyStr: 'Hi. My name is Jackie.', 
+          // messageBodyStr: data, 
+          messageBodyStr: "Hi. My name is Jackie",
           speed:7, 
           character:"|", 
           endFlashSpeed:0, 

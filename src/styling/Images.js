@@ -21,6 +21,7 @@ const RoundLogo = styled.img `
     border-radius: 100%;
     // box-shadow: 1px 1px 10px 1px black;
     margin: 0 auto;
+    margin-bottom: -30px;
 `
 
 const TextLogo = styled.img `
