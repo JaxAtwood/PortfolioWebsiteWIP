@@ -11,9 +11,7 @@ export default function Splash() {
             </Pitch>
             <SplashDiv>
                 <Overlap>
-                
                 <Circle><Icons src="/sitemap.svg"></Icons>design</Circle>
-                
                 <SplashCard><P>consult, come together, uniquely yours, custom-built/scratch, no templates-more text</P></SplashCard>
                 </Overlap>
                 <Overlap>

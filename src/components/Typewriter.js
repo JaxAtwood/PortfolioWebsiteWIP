@@ -18,7 +18,7 @@ class TypeWriter extends React.Component {
           currentString: "obj", 
           charCount:0, 
           // messageBodyStr: data, 
-          messageBodyStr: "Hi. My name is Jackie",
+          messageBodyStr: " Hi. My name is Jackie.",
           speed:7, 
           character:"|", 
           endFlashSpeed:0, 
@@ -51,30 +51,24 @@ class TypeWriter extends React.Component {
     }
    
    componentDidMount(){
-    
     this.onLoaded();
    }
    
    componentDidUpdate(prevProps) {
-  
     this._currentString = this.state.messageBodyStr.substring(0, this.state.charCount)+this.state.character;
    }
    
    blink(){
-    
     this.setState({ blinkCount: ~~this._blinkCount });
-    this._currentString = (this.state.blinkCount%2) ? this.state.messageBodyStr : this.state.messageBodyStr +this.state.character
+    this._currentString = (this.state.blinkCount%2) ? this.state.messageBodyStr : this.state.messageBodyStr + this.state.character
    }
   
     render() {
       return (
-        <svg viewBox="0 0 800 300" preserveAspectRatio="xMidYMin meet" onLoad={this.startAnim}>       
-          <text x='10%' y='50%' className='myText' ref={c => (this.textField = c)}>{this._currentString}
-          </text> 
-        </svg>
+        <div onLoad={this.startAnim}>       
+          <h1 ref={c => (this.textField = c)}>{this._currentString}</h1> 
+        </div>
       );
-     
-     
     }
   }
 
