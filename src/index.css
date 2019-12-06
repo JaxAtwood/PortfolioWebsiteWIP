@@ -1,15 +1,9 @@
 body {
   margin: 0;
-  /* font-family: 'Caveat Brush', cursive; */
-  /* font-family: 'Calistoga', cursive; */
-  /* font-family: 'Source Code Pro', monospace; */
   font-family: 'Encode Sans Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background: #808080 no-repeat center center fixed;  */
   background-size: cover;
-  /* overflow: hidden; */
-  
   min-height: 100%;
 }
 

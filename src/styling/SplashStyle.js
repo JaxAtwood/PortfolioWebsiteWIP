@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 const Pitch = styled.div `
     // border: 1px solid gray;
-    max-width: 48%;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 36em;
+    // padding-left: 220px;
+    // padding-right: 220px;
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 20px;
