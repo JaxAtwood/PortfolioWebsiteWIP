@@ -6,11 +6,11 @@ import { NavBox } from "../styling/NavStyle";
 export default function Nav() {
     return (
         <NavBox>
-            <NavLink path to="/nav/home">Welcome</NavLink>
-            <NavLink path to="/nav/about">About Me</NavLink>
-            <NavLink path to="/nav/work">My Work</NavLink>
-            <NavLink path to="/nav/hire">Hire Me</NavLink>
-            <NavLink path to="/nav/contact">Contact</NavLink>
+            <NavLink path to="/">Welcome</NavLink>
+            <NavLink path to="/about">About Me</NavLink>
+            <NavLink path to="/work">My Work</NavLink>
+            <NavLink path to="/hire">Hire Me</NavLink>
+            <NavLink path to="/contact">Contact</NavLink>
         </NavBox>
     )
 }

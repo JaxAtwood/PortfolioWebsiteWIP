@@ -1,6 +1,11 @@
 import React from "react";
-
+import styled from "styled-components";
 import { ProjectDiv, ProjectCard, CollabDiv, CollabCard, TestDiv, TestCard } from "../styling/WorkStyle";
+
+const DMVid = styled.img`
+    width: 30%;
+`
+
 
 export default function Work() {
     return (
@@ -18,11 +23,10 @@ export default function Work() {
                     <ProjectCard src="/friendsapp.png" alt="friends app screenshot"></ProjectCard>
                     <ProjectCard src="/nasa.png" alt="nasa API screenshot"></ProjectCard>
                 </ProjectDiv>
-                <h1>Collaborative Projects</h1>
+                {/* <h1>Collaborative Projects</h1> */}
                 <CollabDiv>
-                    <CollabCard>Project 1</CollabCard>
-                    <CollabCard>Project 2</CollabCard>
-                    <CollabCard>Project 3</CollabCard>
+                    <DMVid src="/Todo.gif"></DMVid>
+                    <DMVid src="/DarkMode.gif"></DMVid>
                 </CollabDiv>
                 <h1>Endorsements / Testimonials</h1>
                 <TestDiv>
