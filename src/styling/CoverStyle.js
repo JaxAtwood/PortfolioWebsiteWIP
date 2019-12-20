@@ -17,7 +17,7 @@ const Typer = styled.div`
     fill: #fffcf9;
     font-family: Helvetica, Arial, sans-serif;
     border: red solid 1px;
-    height: 80px;
+    height: auto;
     margin: 0 auto;
     margin-top: 20%;
     max-width: 34vw;
